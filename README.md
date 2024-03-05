@@ -74,3 +74,7 @@ Where Caramel <3 R.O.B. corresponds to {Kitten's Name} <3 {Robot's Name} And the
 
 ## Change from the original game
 Note that unlike the original game, it is possible to walk on the NonKittenItems. This will simplify the implementation and avoid cases where the robot could get stuck in its starting position.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
