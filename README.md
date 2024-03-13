@@ -15,7 +15,7 @@ Each time the robot walks on an item that is not the kitten, a description of th
 - An automated robot-liker. It smiles at you.
 - A book with “Don’t Panic” in large friendly letters across the cover.
 
-Each item on the grid has a fixed description randomly selected at the beginning of the game from a bank of Non-Kitten-Items descriptors. The game ends when the Robot finds Kitten.
+Each item on the grid has a fixed description randomly selected at the beginning of the game from a bank of Non-Kitten items descriptors. The game ends when the Robot finds Kitten.
 
 A web version of the original game is available here: http://robotfindskitten.org/play/robotfindskitten/
 
@@ -23,8 +23,8 @@ A web version of the original game is available here: http://robotfindskitten.or
 I recreated this game by addng a few elements to spice it up:
 - Instead of being one large open room, the game grid is divided into locked rooms.
 - The robot can collect keys to open doors and move to the next room.
-- Each room contains some Non-Kitten-Items and a key (represented by an apostrophe).
-- One of the Non-Kitten-Items on the grid is a Teleporter, which allows the robot to move to a random position on the grid upon request.
+- Each room contains some Non-Kitten items and a key (represented by an apostrophe).
+- One of the Non-Kitten items on the grid is a Teleporter, which allows the robot to move to a random position on the grid upon request.
 
 ## How To Play
 ```shell
@@ -41,8 +41,8 @@ After running these commands, you should be greeted by a welcome message:
 The game grid will then be generated semi-randomly:
 - Walls (%) are placed around each room with a door in the middle (!) to move from one room to another.
 - A key is placed on a randomly chosen cell in each room.
-- Non-Kitten-Items and the Kitten are randomly placed on the grid (the representation of Non-Kitten-Items and the Kitten is randomly selected from a set of ASCII characters).
-- In addition to the Non-Kitten-Items, a Teleporter is hidden somewhere on the game grid.
+- Non-Kitten items and the Kitten are randomly placed on the grid (the representation of Non-Kitten-Items and the Kitten is randomly selected from a set of ASCII characters).
+- In addition to the Non-Kitten items, a Teleporter is hidden somewhere on the game grid.
 
 Once generated, the grid should look something like this:
 
@@ -73,7 +73,7 @@ Where Caramel <3 R.O.B. corresponds to {Kitten's Name} <3 {Robot's Name} And the
 
 
 ## Change from the original game
-Note that unlike the original game, it is possible to walk on the NonKittenItems. This will simplify the implementation and avoid cases where the robot could get stuck in its starting position.
+Note that unlike the original game, it is possible to walk on the Non-Kitten items. This will simplify the implementation and avoid cases where the robot could get stuck in its starting position.
 
 ## License
 
