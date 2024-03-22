@@ -2,7 +2,7 @@
 Defintion (Wikipedia, the free encyclopedia) - Robotfindskitten (rfk) is a "Zen simulation", originally written by Leonard Richardson for DOS.
 
 ## Context
-You embody a Robot (#) searching for Kitten (affectionately nicknamed Kitten) and examining each object on the grid until it finds Kitten (no time constraints, no life bar, no score, ...). The main objective is to have a good time contemplating the various non-kitten objects (Non-Kitten-Items) found in the level.
+You embody a Robot (#) searching for a kitten (affectionately nicknamed Kitten) and examining each object on the grid until it finds Kitten (no time constraints, no life bar, no score, ...). The main objective is to have a good time contemplating the various non-kitten objects (Non-Kitten-Items) found in the level.
 
 ## Original Game
 The game is represented as an ASCII grid:
